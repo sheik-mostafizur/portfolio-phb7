@@ -98,3 +98,167 @@ nav ul li a {
   border: 1px solid #fd6e0a;
   color: #fd6e0a;
 }
+
+/* main area */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* about area */
+#about {
+  background: #fff8f3;
+  border-radius: 10px;
+  margin: 130px 0;
+  padding: 130px 157px;
+  text-align: center;
+}
+#about h2 {
+  font-weight: 700;
+  font-size: 35px;
+}
+#about > p {
+  margin: 30px 0;
+}
+#about .about-contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#about .about-contact p {
+  font-size: 20px;
+  line-height: 30px;
+}
+#about .about-contact h3 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* what_i_do area */
+#what_i_do {
+  margin-bottom: 130px;
+}
+#what_i_do h2 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+  text-align: center;
+}
+#what_i_do > p {
+  text-align: center;
+  margin: 30px 130px;
+}
+#what_i_do .items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+#what_i_do .items .item {
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 33px;
+}
+#what_i_do .items .item h3 {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 20px 0;
+}
+#what_i_do .items .item p {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+/* resume area */
+#resume {
+  margin-bottom: 113px;
+}
+#resume h2 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+  margin-bottom: 113px;
+  text-align: center;
+}
+#resume .my-resume {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+#resume .my-resume .skills h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  margin-bottom: 30px;
+}
+#resume .my-resume .skills div {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+}
+#resume .my-resume .skills div h4 {
+  font-size: 25px;
+  line-height: 34px;
+  font-weight: 700;
+}
+#resume .my-resume .skills div h5 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #757575;
+  margin-top: 10px;
+}
+#resume .my-resume .skills div p {
+  margin: 30px 0;
+  font-size: 16px;
+  line-height: 28px;
+}
+#resume button {
+  display: block;
+  margin: 50px auto 0;
+}
+
+/* footer area */
+footer {
+  background: #fff8f3;
+}
+footer .contact-from {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 130px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 117px;
+}
+footer .contact-from > div {
+  flex-basis: 50%;
+}
+footer .contact-from h2 {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 48px;
+  margin-bottom: 28px;
+}
+footer .contact-from p {
+  margin: 20px 0;
+}
+footer .contact-from div a i {
+  color: #fd6e0a;
+  margin-right: 25px;
+  font-size: 24px;
+}
+
+footer .contact-from form {
+}
+
+footer .contact-from form input,
+footer .contact-from form textarea {
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 18px 30px;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
